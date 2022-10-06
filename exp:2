@@ -1,0 +1,7 @@
+6 lines (6 sloc)  47 Bytes
+LDA 8050
+MOV B,A
+LDA 8051
+SUB B
+STA 8052
+RST 1
